@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
+@media screen and (max-width: 575px) {	  
+body{
+}
+	  
 h1 {
   font-family: 'Audiowide', cursive;
   text-align: center;
@@ -9,6 +13,13 @@ h2 {
   font-family: 'Audiowide', cursive;
   text-align: center;
 }
+
+img {
+  width: 15%;
+	padding-left: 45%;
+  
+}
+
 #header {
   width: 90%;
   border: 15px solid blue;
@@ -18,15 +29,26 @@ h2 {
 
 li {
   font-family: 'Special Elite', cursive;
-  
 }
 
 ul ul {
   list-style-type: circle;
 }
+@media (orientation:landscape){	
+#ingredients {
+ padding-bottom: 20px;
+	padding-left: 10px;
+	border: double 5px;
+  border-width: 5px 5px 5px 5px;
+	padding-top: 20px;
+	margin: 20px;
+}
 
 #ingredients li { 
   font-family: 'Special Elite', cursive;
+ border-style: double 15px;
+  border-width: thick;
+
 }
 
 #ingredients li span {
@@ -41,4 +63,23 @@ p {
 }
 #highlight {
   background-color: #ECECEC;
+}
+@media (orientation:landscape){
+#equipment {
+   padding-bottom: 20px;
+	padding-left: 10px;
+	border: double 5px;
+  border-width: 5px 5px 5px 5px;
+	padding-top: 20px;
+	margin: 20px;
+}
+
+	@media (orientation:landscape){
+#directions {
+  padding-bottom: 20px;
+	padding-left: 10px;
+	border: double 5px;
+  border-width: 5px 5px 5px 5px;
+	padding-top: 20px;
+	margin: 20px;	
 }
