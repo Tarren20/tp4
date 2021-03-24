@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
-@media screen and (max-width: 575px) {	  
-body{
-}
 	  
 h1 {
   font-family: 'Audiowide', cursive;
@@ -34,7 +31,7 @@ li {
 ul ul {
   list-style-type: circle;
 }
-@media (orientation:landscape){	
+
 #ingredients {
  padding-bottom: 20px;
 	padding-left: 10px;
@@ -64,7 +61,7 @@ p {
 #highlight {
   background-color: #ECECEC;
 }
-@media (orientation:landscape){
+
 #equipment {
    padding-bottom: 20px;
 	padding-left: 10px;
@@ -74,7 +71,7 @@ p {
 	margin: 20px;
 }
 
-	@media (orientation:landscape){
+
 #directions {
   padding-bottom: 20px;
 	padding-left: 10px;
