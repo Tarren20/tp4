@@ -12,13 +12,15 @@ h2 {
 }
 
 img {
-  width: 15%;
-	padding-left: 45%;
-  
+  width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: double 5px;
 }
 
 #header {
-  width: 90%;
+  width: auto;
   border: 15px solid blue;
   padding: 25px;
   margin: 15px;
@@ -33,19 +35,15 @@ ul ul {
 }
 
 #ingredients {
+	width: auto;
  padding-bottom: 20px;
 	padding-left: 10px;
 	border: double 5px;
   border-width: 5px 5px 5px 5px;
 	padding-top: 20px;
 	margin: 20px;
-  background: gray;
-  transition: background-color 1s;
 }
-@media screen and (min-width: 300px) {
-#ingredients {
-  background-color:black;
-}
+
 
 #ingredients li { 
   font-family: 'Special Elite', cursive;
@@ -69,6 +67,7 @@ p {
 }
 
 #equipment {
+	width: auto;
    padding-bottom: 20px;
 	padding-left: 10px;
 	border: double 5px;
@@ -77,12 +76,63 @@ p {
 	margin: 20px;
 }
 
-
+	
 #directions {
+	width: auto;
   padding-bottom: 20px;
 	padding-left: 10px;
 	border: double 5px;
   border-width: 5px 5px 5px 5px;
 	padding-top: 20px;
-	margin: 20px;	
+	margin: 20px;
 }
+		
+@media only screen and (orientation: landscape) {
+	#directions {
+		width: 30%;
+		height: 350px;
+		padding: 2px;
+		float:left;
+		display: table-row;
+		text-align: center;
+		}
+	#source {
+		margin: auto;
+		float: inherit;
+		display: block;
+	}
+	#ingredients {
+		width: 30%;
+		height: 350px;
+		padding: 2px;
+		float: left;
+		display: table-row;
+		text-align: center;
+		
+	}
+	#equipment{
+		width: 30%;
+		height: 350px;
+		padding: 3px;
+		float: left;
+		text-align: center;
+		display: table-row;
+		
+	}
+	@media only screen and (orientation: portrait) {
+		#directions {
+			width: 100%;
+		padding: 2px;
+		
+		}
+	#ingredients {
+		width: 100%;
+		padding: 2px;
+		
+	}
+	#equipment{
+		width: 100%;
+		padding: 2px;
+		
+		
+	}
