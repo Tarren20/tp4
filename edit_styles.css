@@ -39,11 +39,12 @@ ul ul {
   border-width: 5px 5px 5px 5px;
 	padding-top: 20px;
 	margin: 20px;
+  background: gray;
   transition: background-color 1s;
 }
 @media screen and (min-width: 300px) {
 #ingredients {
-  background:gray;
+  background:black;
 }
 
 #ingredients li { 
