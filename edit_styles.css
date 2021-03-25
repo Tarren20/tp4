@@ -44,7 +44,7 @@ ul ul {
 }
 @media screen and (min-width: 300px) {
 #ingredients {
-  background:black;
+  background-color:black;
 }
 
 #ingredients li { 
